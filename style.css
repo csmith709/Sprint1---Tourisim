@@ -1,0 +1,321 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(79, 119, 193);
+}
+
+.mainbox {
+  width: 1000px;
+  height:2500px;
+  background-color: white;
+  text-align: left;
+  
+}
+.logobox {
+  width: 170px;
+  height:70px;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+  background-color: white;
+  margin-left: 220px;
+}
+.navbox {
+  width: 820px;
+  height: 70px;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  background-color: white;
+}
+nav a:link {
+    text-decoration: none;
+    background-color: white;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif
+  }
+nav a:hover{
+    text-decoration: none;
+    color: grey;
+}
+nav a:visited{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.mainphotobox {
+  width: 1000px;
+  height: 600px;
+  float: left;
+  background-color: white;
+  padding-bottom: 50px;
+  float: left;
+  position: relative;
+}
+.maintextblock {
+  width: 1000px;
+  height: 200px;
+  text-align: center;
+  float: left;
+  background-color: lightgrey;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  font-size: 14pt;
+  background-image: url(nlphotos/grey-back1.png);
+  border-top: 5px solid white;
+}
+.button {
+  border: none;
+  background-color: red;
+  padding: 12px 20px;
+  min-height: 25px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 275px 275px;
+  position: absolute;
+  cursor: pointer;
+}
+button a:link {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif
+}
+button a:hover{
+  text-decoration: none;
+  color: white;
+}
+button a:visited{
+text-decoration: none;
+color: white;
+}
+.buttonbig {
+  border: none;
+  background-color: red;
+  padding: 12px 20px;
+  min-height: 25px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 275px 775px;
+  position: absolute;
+  cursor: pointer;
+}
+.buttonsmall {
+  border: none;
+  background-color: red;
+  padding: 12px 20px;
+  min-height: 25px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 135px 25px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.headerbigtext {
+  position:absolute;
+  top: 105px;
+  left: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35pt;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.headersmalltext {
+  position: absolute;
+  top: 175px;
+  left: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16pt;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.foodbox {
+  margin-left: 25px;
+  margin-right: 50px;
+  width: 450px;
+  height: 350px;
+  float: left;
+  z-index: -1;
+}
+.foodbigtext {
+  position:absolute;
+  top: 950px;
+  left: 255px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35pt;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.foodsmalltext {
+  position: absolute;
+  top: 1010px;
+  left: 260px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16pt;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.todobox {
+  width: 450px;
+  height: 350px;
+  float: left;
+  margin-right:25px;
+}
+.todobigtext {
+  position:absolute;
+  top: 950px;
+  left: 760px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35pt;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+  -webkit-font-smothing: antialiased;
+}
+.todosmalltext {
+  position: absolute;
+  top: 1010px;
+  left: 760px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.eventbox {
+  width: 950px;
+  height: 350px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.eventbigtext {
+  position:absolute;
+  top: 1340px;
+  left: 255px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35pt;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.eventsmalltext {
+  position: absolute;
+  top: 1400px;
+  left: 260px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16.5pt;
+  font-weight: 400;
+  color: white;
+  text-shadow: #000 0px 0px 2px;
+    -webkit-font-smothing: antialiased;
+}
+.mapbox {
+  width: 600px;
+  height: 400px;
+  float: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+.contactbox {
+  height: 30px;
+  float:left;
+  margin-top: 50px;
+  margin-left: 448px;
+  margin-right: 300px;
+}
+.buttonlast {
+  border: none;
+  background-color: red;
+  padding: 12px 20px;
+  min-height: 25px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.bottombox {
+  width: 333px;
+  margin-top: 50px;
+  height: 250px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  float: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13pt;
+  background-color: lightgray;
+  border: 1px solid white;
+  background-image: url(nlphotos/grey-back1.png);
+}
+.footbox {
+  width: 100%;
+  height: 70px;
+  padding: 30px;
+  float:left;
+  text-align: center;
+  background-color: white;
+}
+.circular--sqare {
+  border-radius: 50%;
+}
+.listtextbox {
+  width: 600px;
+  height: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: left;
+  background-color: lightgrey;
+  margin-top: 50px;
+  padding: 30px;
+}
+.listphotobox {
+  width: 400px;
+  height: 200px;
+  float: left;
+  background-color: white;
+  margin-top: 50px;
+}
+footer a:link {
+  text-decoration: none;
+  background-color: white;
+  color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif
+}
+footer a:hover{
+  text-decoration: none;
+  color: grey;
+  font-weight: 700;
+}
+footer a:visited{
+text-decoration: none;
+color: grey;
+}
